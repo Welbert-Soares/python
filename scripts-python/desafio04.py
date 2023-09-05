@@ -1,0 +1,8 @@
+n = input('Digite algo ')
+print(n.isalnum())
+print(n.islower())
+print(n.isupper())
+print(n.isprintable())
+print(n.istitle())
+print(n.isnumeric())
+print(n.isdigit())
