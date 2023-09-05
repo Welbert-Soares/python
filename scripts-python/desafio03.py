@@ -1,5 +1,5 @@
 print('====== DESAFIO 03 ======')
-number_1 = input('Primeiro número ')
-number_2 = input('Segundo número ')
+number_1 = int(input('Primeiro número '))
+number_2 = int(input('Segundo número '))
 soma = (number_1 + number_2)
-print('A soma é ', soma)
+print('O resultado da soma é {}.'.format(soma))
