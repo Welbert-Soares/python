@@ -1,3 +1,4 @@
+print('====== DESAFIO 04 ======')
 a = input('Digite algo ')
 print('O tipo primitivo desse valor é {}.'.format(type(a)))
 print('Só tem espaços? {}.'.format(a.isspace()))
