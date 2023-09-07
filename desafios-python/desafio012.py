@@ -1,7 +1,6 @@
 print('====== DESAFIO 012 ======')
-# programa que lê o preço de um produto e calcula 5% de juros sobre o mesmo.
+# programa que lê o preço de um produto e calcula 5% de desconto sobre o mesmo.
 
-price = float(input('Qual o preço do produto? '))
-juros = price * 5 / 100
-new_valor = price + juros
-print('O juros de cinco por cento sobre o valor R${:.2f}, será R${:.2f}, ao total R${:.2f}.'.format(price, juros, new_valor))
+price = float(input('Qual o preço do produto? R$'))
+new_valor = price - (price * 5 / 100)
+print('O produto que custava R${:.2f}, na promoção de 5% de desconto vai custar R${:.2f}.'.format(price, new_valor))
